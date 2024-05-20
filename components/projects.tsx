@@ -15,7 +15,7 @@ export default function Projects() {
       <Project />
 
       <Link href="/project-list" target="_blank"
-        className="inline-flex items-center justify-center px-3 py-2 mt-0 mb-16 h-14 w-52 text-sm font-medium text-center text-white bg-green-600 
+        className="inline-flex items-center justify-center px-3 py-2 xs:mt-6 lg:mt-0 mb-16 h-14 w-52 text-sm font-medium text-center text-white bg-green-600 
         border-2 border-gray-800 hover:border-green-600 hover:bg-green-500 rounded-lg hover:scale-110" >
           Explore more
         <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2 mt-[2px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">

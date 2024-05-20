@@ -28,7 +28,7 @@ export default function FamiliarWith() {
     <section
       id="familiarWith"
       ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40 xs:px-4 lg:px-0"
     >
       <SectionHeading>I am Familiar With</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">

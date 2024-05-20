@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Image from "next/image";
+import raveenaPortfolio from "@/public/projects/raveena-portfolio.png";
 import sevenPhotography from "@/public/projects/seven-photography.png";
 import theMilkShop from "@/public/projects/the-milk-shop.png";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -28,22 +29,22 @@ export default function Project() {
     >
     
 
-    <div className="w-full flex xs:flex-col lg:flex-row gap-6 items-center justify-center
-        xs:px-4 md:px-0">
-          <section className="group bg-gray-100 max-w-[24rem] border border-black/5 rounded-lg overflow-hidden sm:p-8
+    <div className="w-full flex xs:flex-col 2xl:lg:flex-row gap-6 items-center justify-center
+        xs:px-6 md:px-0">
+          <section className="group bg-gray-100 xs:w-[22rem] md:w-[36rem] xl:w-[24rem] border border-black/5 rounded-lg overflow-hidden sm:p-8
           relative sm:h-[38rem] hover:bg-gray-200 transition text-white
           bg-white/10 hover:bg-white/20">
             <Image
-              src={sevenPhotography}
+              src={raveenaPortfolio}
               alt="Project I worked on"
               quality={95}
-              className="sm:block rounded-t-lg shadow-2xl scale-[1] group-hover:scale-[1.05] h-[12rem] object-fill"
+              className="sm:block rounded-t-lg shadow-2xl scale-[1] group-hover:scale-[1.05] h-[12rem] object-cover"
               />
 
-            <div className="pt-0 pb-7 px-5 sm:pl-0 sm:pr-0 sm:pt-10 sm:max-w-[100%] flex flex-col gap-2 h-full">
+            <div className="xs:mt-8 md:mt-0 pb-7 px-5  sm:pl-0 sm:pr-0 sm:pt-10 sm:max-w-[100%] flex flex-col gap-2 h-full">
               <h3 className="text-2xl font-semibold">My Portfolio</h3>
               <p className="mt-0 leading-relaxed text-gray-700 text-white/70 h-36">
-              This is a mobile responsive website which I create to show my progress so far as UI/UX Engineer. Website is develop using on Nextjs, TailwindCSS and the official website is deployed using vercel.
+              This is a mobile responsive website which I create to show my progress so far as UI/UX Engineer. Website is developed using Nextjs, TailwindCSS and the official website is deployed using vercel.
               </p>
               <ul className="flex flex-wrap mt-4 gap-2">
                   <li
@@ -71,7 +72,7 @@ export default function Project() {
               <div className="flex flex-row gap-4 mt-3">
                 <a
                   className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack bg-white/10 text-white/60"
-                  href="https://github.com/raveena69/seven-photography"
+                  href="https://github.com/raveena69/raveena-portfolio"
                   target="_blank"
                 >
                   <FaGithub />
@@ -92,7 +93,7 @@ export default function Project() {
                 </a>
                 <a
                   className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack bg-white/10 text-white/60"
-                  href="https://seven-photography.netlify.app/"
+                  href="https://raveena-amarasiriwardena.vercel.app/"
                   target="_blank"
                 >
                   <FaGoogle />
@@ -101,7 +102,7 @@ export default function Project() {
             </div>
           </section>
 
-          <section className="group bg-gray-100 max-w-[24rem] border border-black/5 rounded-lg overflow-hidden sm:p-8
+          <section className="group bg-gray-100  xs:w-[22rem] md:w-[36rem] xl:w-[24rem] border border-black/5 rounded-lg overflow-hidden sm:p-8
           relative sm:h-[38rem] hover:bg-gray-200 transition text-white
           bg-white/10 hover:bg-white/20">
             <Image
@@ -111,10 +112,10 @@ export default function Project() {
               className="sm:block rounded-t-lg shadow-2xl scale-[1] group-hover:scale-[1.05] h-[12rem] object-fill"
               />
 
-            <div className="pt-0 pb-7 px-5 sm:pl-0 sm:pr-0 sm:pt-10 sm:max-w-[100%] flex flex-col gap-2 h-full">
+            <div className="xs:mt-8 md:mt-0 pt-0 pb-7 px-5 sm:pl-0 sm:pr-0 sm:pt-10 sm:max-w-[100%] flex flex-col gap-2 h-full">
               <h3 className="text-2xl font-semibold">Seven Photography</h3>
               <p className="mt-0 leading-relaxed text-gray-700 text-white/70 h-36">
-              This is a Photographer Portfolio website develop for startup professional photographer. Website is develop using on Vuejs, Bootstrap and the official website is deployed using netlify.
+              This is a Photographer Portfolio website develop for startup professional photographer. Website is developed using Vuejs, Bootstrap and the official website is deployed using netlify.
               </p>
               <ul className="flex flex-wrap mt-4 gap-2">
                   <li
@@ -172,7 +173,7 @@ export default function Project() {
             </div>
           </section>
 
-          <section className="group bg-gray-100 max-w-[24rem] border border-black/5 rounded-lg overflow-hidden sm:p-8
+          <section className="group bg-gray-100 xs:w-[22rem] md:w-[36rem] xl:w-[24rem] border border-black/5 rounded-lg overflow-hidden sm:p-8
           relative sm:h-[38rem] hover:bg-gray-200 transition text-white
           bg-white/10 hover:bg-white/20">
             <Image
@@ -182,7 +183,7 @@ export default function Project() {
               className="sm:block rounded-t-lg shadow-2xl scale-[1] group-hover:scale-[1.05] h-[12rem] object-cover"
               />
 
-            <div className="pt-0 pb-7 px-5 sm:pl-0 sm:pr-0 sm:pt-10 sm:max-w-[100%] flex flex-col gap-2 h-full">
+            <div className="xs:mt-8 md:mt-0 pt-0 pb-7 px-5 sm:pl-0 sm:pr-0 sm:pt-10 sm:max-w-[100%] flex flex-col gap-2 h-full">
               <h3 className="text-2xl font-semibold">The Milk Shop</h3>
               <p className="mt-0 leading-relaxed text-gray-700 text-white/70 h-36">
               This is my very first website which I created using html and css.

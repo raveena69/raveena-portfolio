@@ -17,12 +17,12 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="xs:mt-24 lg:mt-20 xs:mb-0 md:mb-0 lg:mb-52 max-w-full text-center scroll-mt-[100rem] 
-                flex xs:flex-col lg:flex-row"
+      className="xs:mt-24 lg:mt-20 xs:mb-0 md:mb-0 lg:mb-52 max-w-full text-center scroll-mt-[100rem]
+                flex xs:flex-col xl:flex-row"
     >
 
-      <div className="flex items-end justify-center w-1/2 xs:w-full lg:w-1/2
-       xs:mb-12 lg:mb-0">
+      <div className="flex items-center justify-center w-1/2 xs:w-full xl:w-1/2
+       xs:mb-12 xl:mb-0">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -35,8 +35,8 @@ export default function Intro() {
             <Image
               src={ProfileImage}
               alt="Raveena portrait"
-              width="192"
-              height="192"
+              width="2092"
+              height="2092"
               quality="95"
               priority={true}
               className="xs:h-48 xs:w-48 md:h-[31rem] md:w-[31rem] rounded-3xl object-cover border-[0.35rem] border-white shadow-xl"
@@ -47,15 +47,15 @@ export default function Intro() {
         
       <motion.div
         ref={ref}
-        className="mb-0 max-w-[75rem] md:px-24 lg:pl-0 lg:pr-16 text-left xs:text-center lg:text-left 
-        leading-8 xs:mb-40 lg:mb-0 scroll-mt-28 w-1/2 xs:w-full lg:w-1/2"
+        className="mb-0 max-w-[75rem] xs:px-8 md:px-24 xl:pl-0 xl:pr-16 text-left xs:text-center xl:text-left 
+        leading-8 xs:mb-40 lg:mb-0 scroll-mt-28 w-1/2 xs:w-full xl:w-1/2"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}
         id="about"
       >
         <SectionHeading>
-          <div className="text-left xs:text-center lg:text-left">
+          <div className="text-left xs:text-center xl:text-left">
             Welcome to my Portfolio!
           </div>
         </SectionHeading>
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <motion.div
           className="flex flex-col xs:flex-col lg:flex-row items-center 
-          xs:justify-center lg:justify-start justify-center gap-4 px-4 text-lg font-medium mt-4"
+          xs:justify-center xl:justify-start justify-center gap-4 px-4 text-lg font-medium mt-4"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
