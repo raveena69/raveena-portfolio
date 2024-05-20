@@ -21,7 +21,7 @@ export default function Articles() {
     whileInView="animate"
     >
 
-      <SectionHeading>Latest Articls</SectionHeading>
+      <SectionHeading>Latest Articles</SectionHeading>
       <div className="flex xs:flex-col lg:flex-row gap-12">
       {articlesData.map((item, index) => (
           <React.Fragment key={index}>
