@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: #ffffff;
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-icon.bounce-in{
+  background: #059669 !important;
+}
