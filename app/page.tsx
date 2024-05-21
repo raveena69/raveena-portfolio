@@ -4,7 +4,6 @@ import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import Articles from "@/components/articles";
 import FamiliarWith from "@/components/familiar-with";
-import ContactFooter from "@/components/contact-footer";
 import Header from "@/components/header";
 
 export default function Home() {

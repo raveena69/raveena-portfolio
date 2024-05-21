@@ -83,8 +83,8 @@ export default function Header() {
               !toggleMenu ? "h-0" : "min-h-screen"
             }`}
           >
-            <div className="p-8 border-b-[0.1px] border-white">
-              <div className="flex flex-col gap-8 min-w-min font-bold tracking-wider">
+            <div className="p-8 pt-4 border-b-[0.1px] border-white">
+              <div className="flex flex-col min-w-min font-bold tracking-wider">
               {links1.map((link) => (
                   <Link key={link.hash} className={clsx(
                     "flex lg:items-center lg:justify-center px-3 py-3 my-2 xs:h-12 lg:h-8 transition text-gray-500 hover:text-green-400 rounded-lg xs:flex-row lg:hidden gap-8 min-w-min",
