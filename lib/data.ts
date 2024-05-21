@@ -99,7 +99,7 @@ export const links1 = [
   },
   {
     name: "Contact",
-    hash: "/",
+    hash: "#contact",
   },
 ] as const;
 
