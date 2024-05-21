@@ -26,13 +26,13 @@ export default function Articles() {
       {articlesData.map((item, index) => (
           <React.Fragment key={index}>
           <div className="xs:w-[22rem] md:w-[36rem] xl:w-[24rem] mx-2 bg-white rounded-xl bg-white/10 text-white/80">
-            <Link href={item.linkUrl}>
+            <Link href={item.linkUrl} target="_blank">
               <Image className="rounded-t-lg h-[175px] w-full object-fill" src={item.imageUrl} alt="" 
               height={175}
               width={175}/>
             </Link>
             <div className="p-5">
-              <Link href={item.linkUrl}>
+              <Link href={item.linkUrl} target="_blank">
                   <h5 className="mb-2 text-xl font-bold tracking-tight text-white h-24 flex items-start">{item.title}</h5>
               </Link>
               <p className="mb-3 text-md font-normal text-gray-400 h-44">{item.description}</p>
