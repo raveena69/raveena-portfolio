@@ -145,7 +145,7 @@ export const experiencesData = [
     title: "Trainee UI/UX Engineer",
     location: "Sri Lanka",
     description:
-      "As an Trainee UI/UX Engineer I had started work at i-Context Pvt Ltd. Sri lanka. Role is based on developing user interface according to the wireframes and make the mobile responsive development for those user interfaces.",
+      "As an Trainee UI/UX Engineer I had started work at i-Context Pvt Ltd. Sri Lanka. Role is based on developing user interface according to the wireframes and make the mobile responsive development for those user interfaces.",
     icon: React.createElement(FaSass),
     date: "2023 June - 2024 January",
   },
@@ -154,7 +154,7 @@ export const experiencesData = [
     title: "Associate UI/UX Engineer",
     location: "Sri Lanka",
     description:
-      "Since 2024 January I work as Associate UI/UX Engineer in i-Context Pvt Ltd. Sri lanka. While working on sevaral projects, I used AngularJs, ReactJs, Bootstrap, React Bootstrap, CSS, SASS and Figma for the user interface development.",
+      "Since 2024 January I work as Associate UI/UX Engineer in i-Context Pvt Ltd. Sri Lanka. While working on sevaral projects, I used AngularJs, ReactJs, Bootstrap, React Bootstrap, CSS, SASS and Figma for the user interface development.",
     icon: React.createElement(FaReact),
     date: "2024 January - present",
   },
