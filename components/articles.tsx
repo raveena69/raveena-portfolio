@@ -25,7 +25,7 @@ export default function Articles() {
       <div className="flex xs:flex-col xl:flex-row gap-12 xs:px-4 md:px-0">
       {articlesData.map((item, index) => (
           <React.Fragment key={index}>
-          <div className="xs:w-[22rem] md:w-[36rem] xl:w-[24rem] border mx-2 bg-white border-black rounded-xl bg-white/10 text-white/80">
+          <div className="xs:w-[22rem] md:w-[36rem] xl:w-[24rem] mx-2 bg-white rounded-xl bg-white/10 text-white/80">
             <a href="#">
               <Image className="rounded-t-lg h-[175px] w-full object-fill" src={item.imageUrl} alt="" 
               height={175}

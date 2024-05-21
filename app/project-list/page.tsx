@@ -76,28 +76,28 @@ export default function ProjectList() {
               <div className="flex flex-row gap-4 mt-3">
                 <a
                   className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack bg-white/10 text-white/60"
-                  href="https://github.com/raveena69/seven-photography"
+                  href="https://github.com/raveena69/raveena-portfolio"
                   target="_blank"
                 >
                   <FaGithub />
                 </a>
                 <a
                   className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack bg-white/10 text-white/60"
-                  href="https://dribbble.com/shots/22576292-Seven-Photography-Photographer-Portfolio"
+                  href="https://dribbble.com/shots/24213809-Raveena-Amarasiriwardena-Portfolio"
                   target="_blank"
                 >
                   <FaDribbble />
                 </a>
                 <a
                   className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack bg-white/10 text-white/60"
-                  href="https://www.behance.net/gallery/180130805/Seven-Photography"
+                  href="https://www.behance.net/gallery/199152921/Raveena-Amarasiriwardena-Portfolio"
                   target="_blank"
                 >
                   <FaBehance />
                 </a>
                 <a
                   className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack bg-white/10 text-white/60"
-                  href="https://seven-photography.netlify.app/"
+                  href="https://raveena-amarasiriwardena.vercel.app/"
                   target="_blank"
                 >
                   <FaGoogle />

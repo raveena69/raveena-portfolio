@@ -64,7 +64,7 @@ export default function Intro() {
         <p className="mb-3">
 
           I&apos;m <span className="font-semibold">Raveena Amarasiriwardena</span>, 
-          a passionate UI UX Engineer based in Sri Lanka. 
+          a passionate UI/UX Engineer based in Sri Lanka. 
           <span className="italic">When I'm not coding</span>, I enjoy playing
           games, watching movies, and listening to music. I also enjoy{" "}
           <span className="font-medium">learning new things</span>. I am currently
