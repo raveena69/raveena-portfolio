@@ -28,7 +28,7 @@ export default function Header() {
       >
 
         <nav className='lg:mb-3'>
-          <div className="w-full xs:pt-1 xs:pb-0 xs:px-4 lg:pb-0 lg:pt-1">
+          <div className="w-full xs:pt-1 xs:pb-0 xs:pl-4 xs:pr-5 lg:pb-0 lg:pt-1">
             <div className="flex justify-between items-center min-w-full ">
               {/* Primary menu and logo */}
               <div className="flex items-center w-full justify-between lg:mx-auto">
@@ -38,7 +38,7 @@ export default function Header() {
                     href="/"
                     className="flex gap-1 font-bold text-gray-700 items-center"
                   >
-                    <span className=' text-white h-10 w-10 rounded-full bg-green-600 flex text-center items-center justify-center mt-1'>RA</span>
+                    <span className='text-white h-10 w-10 rounded-full bg-green-600 flex text-center items-center justify-center mt-1'>RA</span>
                   </Link>
                 </div>
 

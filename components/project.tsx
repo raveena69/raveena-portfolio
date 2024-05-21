@@ -29,8 +29,7 @@ export default function Project() {
     >
     
 
-    <div className="w-full flex xs:flex-col 2xl:lg:flex-row gap-6 items-center justify-center
-        xs:px-6 md:px-0">
+    <div className="w-full flex xs:flex-col 2xl:lg:flex-row gap-6 items-center justify-center xs:px-6 md:px-0">
           <section className="group bg-gray-100 xs:w-[22rem] md:w-[36rem] xl:w-[24rem] border border-black/5 rounded-lg overflow-hidden sm:p-8
           relative sm:h-[38rem] hover:bg-gray-200 transition text-white
           bg-white/10 hover:bg-white/20">

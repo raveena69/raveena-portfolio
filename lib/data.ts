@@ -109,7 +109,7 @@ export const experiencesData = [
     title: "Intern Software Engineer",
     location: "Sri Lanka",
     description:
-      "I started my career as Intern Software Engineer in VizuaMatix Pvt, Sri Lanka. I am mainly worked on frontend and used vuejs and vuetify for development.",
+      "I started my career as Intern Software Engineer in VizuaMatix Pvt, Sri Lanka. I am mainly worked on frontend and used Vuejs and Vuetify for development.",
     icon: React.createElement(FaVuejs),
     date: "2021 August - 2022 February",
   },
@@ -124,10 +124,10 @@ export const experiencesData = [
   },
   {
     id: 3,
-    title: "Graduated - Software Engineering",
+    title: "Graduated - BSc. (Hons) Information Technology Specializing in Software Engineering",
     location: "Sri Lanka",
     description:
-      "I am graduated from Sri Lanka Institute of Information Technology in BSc. (Hons) Information Technology specializing in Software Engineering Software Engineering.",
+      "I am graduated from Sri Lanka Institute of Information Technology in BSc. (Hons) Information Technology Specializing in Software Engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2019 February - 2023 March",
   },
