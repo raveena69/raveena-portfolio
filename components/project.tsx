@@ -54,7 +54,7 @@ export default function Project() {
                   <li
                     className="bg-black/[0.7] h-[1.6rem] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full text-white/70"
 
-                  >Tailwind
+                  >TailwindCSS
                   </li>
                   <li
                     className="bg-black/[0.7] h-[1.6rem] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full text-white/70"
