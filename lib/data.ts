@@ -118,7 +118,7 @@ export const experiencesData = [
     title: "Trainee Software Engineer",
     location: "Sri Lanka",
     description:
-      "In VizuaMatix Pvt Ltd. I had worked another two months as Trainee Software Engineer.",
+      "In VizuaMatix Pvt Ltd. Sri Lanka. I had worked another two months as Trainee Software Engineer.",
     icon: React.createElement(FaChartLine),
     date: "2022 February - 2022 March",
   },
